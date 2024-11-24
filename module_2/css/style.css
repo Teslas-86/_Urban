@@ -11,7 +11,7 @@ body {
 
 .main {
   padding-top: 90px;
-  background-color: #ceb9b4;
+  background-color: #ddd3cf;
   height: 100%;
 }
 
@@ -68,8 +68,8 @@ body {
   padding: 20px;
 }
 
-.light-block {
-  background-color: #ddd3cf;
+.bgc-block {
+  background-color: #ceb9b4;
 }
 
 .intro-title {
@@ -85,6 +85,7 @@ body {
 
 .langs {
   padding: 20px;
+  border-radius: 15px;
 }
 
 .langs-title {
