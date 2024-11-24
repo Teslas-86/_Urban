@@ -1,3 +1,13 @@
+#intro:before,
+#langs:before,
+#tools:before,
+#articles:before {
+  display: block;
+  content: "";
+  height: 55px;
+  margin: -55px 0 0;
+}
+
 html {
   scroll-behavior: smooth;
   color: #1d1919;
@@ -35,6 +45,7 @@ body {
 
 .header-title {
   margin: 0;
+  font-size: 40px;
 }
 
 .home-link {
@@ -70,12 +81,13 @@ body {
 
 .bgc-block {
   background-color: #ceb9b4;
+  border-radius: 15px;
 }
 
 .intro-title {
   text-align: center;
   margin: 0;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .intro-text {
@@ -85,22 +97,42 @@ body {
 
 .langs {
   padding: 20px;
-  border-radius: 15px;
 }
 
 .langs-title {
   text-align: center;
   margin: 0;
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .langs-list {
   margin: 0;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .langs-list__title {
-  margin: 20px 0 10px 0;
+  margin: 20px 0 0 0;
+}
+
+.tools {
+  padding: 20px;
+}
+
+.tools-title {
+  text-align: center;
+  margin: 0;
+  font-size: 35px;
+}
+
+.tools-list {
+  margin: 10px 0 0 0;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 .footer {
