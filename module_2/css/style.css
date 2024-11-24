@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+  color: #1d1919;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 .main {
-  padding-top: 100px;
+  padding-top: 90px;
   background-color: #ceb9b4;
   height: 100%;
 }
@@ -20,6 +21,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
+  height: 90px;
 }
 
 .header div {
@@ -37,10 +39,10 @@ body {
 
 .home-link {
   text-decoration: none;
-  color: #1d1919;
   background-color: #ceb8b0;
   border-radius: 10px;
   padding: 5px;
+  color: #1d1919;
 }
 
 .header-nav__list {
@@ -57,7 +59,6 @@ body {
 
 .header-nav__item {
   list-style-type: none;
-  color: #1d1919;
   background-color: #ceb8b0;
   border-radius: 10px;
   padding: 5px;
@@ -65,20 +66,40 @@ body {
 
 .intro {
   padding: 20px;
+}
+
+.light-block {
   background-color: #ddd3cf;
 }
 
 .intro-title {
   text-align: center;
-  color: #1d1919;
   margin: 0;
   font-size: 40px;
 }
 
 .intro-text {
-  color: #1d1919;
   margin: 20px 0 0 0;
   font-size: 20px;
+}
+
+.langs {
+  padding: 20px;
+}
+
+.langs-title {
+  text-align: center;
+  margin: 0;
+  font-size: 40px;
+}
+
+.langs-list {
+  margin: 0;
+  font-size: 20px;
+}
+
+.langs-list__title {
+  margin: 20px 0 10px 0;
 }
 
 .footer {
