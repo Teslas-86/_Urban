@@ -8,6 +8,12 @@ body {
   background-color: #ddd3cf;
 }
 
+.main {
+  padding-top: 100px;
+  background-color: #ceb9b4;
+  height: 100%;
+}
+
 .header {
   background-color: #ceb8b086;
   position: fixed;
@@ -57,6 +63,28 @@ body {
   padding: 5px;
 }
 
-.main {
-  padding-top: 100px;
+.intro {
+  padding: 20px;
+  background-color: #ddd3cf;
+}
+
+.intro-title {
+  text-align: center;
+  color: #1d1919;
+  margin: 0;
+  font-size: 40px;
+}
+
+.intro-text {
+  color: #1d1919;
+  margin: 20px 0 0 0;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #ceb8b086;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
