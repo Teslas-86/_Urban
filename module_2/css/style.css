@@ -62,6 +62,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .header-nav__list a {
   text-decoration: none;
   color: #1d1919;
@@ -93,6 +94,7 @@ body {
 .intro-text {
   margin: 20px 0 0 0;
   font-size: 20px;
+  text-align: center;
 }
 
 .langs {
@@ -168,10 +170,74 @@ body {
 
 .footer {
   background-color: #ceb8b086;
-  width: 100%;
+  width: 1160px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin-top: 30px;
   border-radius: 15px 15px 0 0;
+  padding: 20px;
+}
+
+.footer-nav__list {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-nav__list a {
+  text-decoration: none;
+}
+
+.footer-nav__item {
+  text-align: center;
+  list-style-type: none;
+  border: #ceb8b0 solid 1px;
+  padding: 5px;
+  background-color: #6b5e5e;
+  border-radius: 15px;
+  color: #ceb8b0;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+}
+
+.contact-me a {
+  text-decoration: underline;
+  color: #1d1919;
+}
+
+.history-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+.history-subtitle {
+  font-weight: normal;
+  color: #584d4d;
+  font-size: 20px;
+  text-align: center;
+}
+
+.history__item {
+  background-color: #ceb9b4;
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.history__item-title {
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.history__item-text {
+  font-size: 20px;
+  margin-bottom: 0;
 }
