@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <a href="index.html" class="home-link"
+          ><h1 class="header-title">Frontend разработка</h1></a
+        >
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <a href="index.html"
+              ><li class="header-nav__item">На главную</li></a
+            >
+            <a href="third_page.html"
+              ><li class="header-nav__item">Оставить комментарий</li></a
+            >
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="form-container">
+        <h2 class="form-title">Оставьте свой комментарий</h2>
+        <form action="#" method="post">
+          <label for="first-name">Имя:</label>
+          <input type="text" id="first-name" name="first-name" required />
+
+          <label for="last-name">Фамилия:</label>
+          <input type="text" id="last-name" name="last-name" required />
+
+          <label for="email">Электронная почта:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="birthdate">Дата рождения:</label>
+          <input type="date" id="birthdate" name="birthdate" required />
+
+          <label for="experience"
+            >Количество лет в сфере frontend-разработки:</label
+          >
+          <input
+            type="number"
+            id="experience"
+            name="experience"
+            min="0"
+            required
+          />
+
+          <label for="comment">Комментарий:</label>
+          <textarea id="comment" name="comment" rows="4" cols="50"></textarea>
+
+          <button class="form-button" type="submit">Отправить</button>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <nav class="footer-nav">
+        <ul class="footer-nav__list">
+          <a href="index.html"><li class="footer-nav__item">На главную</li></a>
+          <a href="second_page.html"
+            ><li class="footer-nav__item">Перейти на 2ю страницу</li></a
+          >
+          <a href="third_page.html"
+            ><li class="footer-nav__item">Оставить комментарий</li></a
+          >
+        </ul>
+      </nav>
+      <div class="contact-me">
+        <a href="https://github.com/Teslas-86" class="contact-me__link">
+          Мои 2 коммита в год на github
+        </a>
+        <a href="https://t.me/pppqqww" class="contact-me__link">
+          tg: @pppqqww
+        </a>
+        <a href="mailto:sasha.kiselev0904@mail.ru" class="contact-me__link">
+          Email: sasha.kiselev0904@mail.ru
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
