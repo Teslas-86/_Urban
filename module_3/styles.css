@@ -1,5 +1,5 @@
 html {
-  font: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: #f8f9fa;
 }
 
@@ -11,7 +11,7 @@ h1 {
 
 h2 {
   font-size: 30px;
-  color: #35555e;
+  color: #061c22;
 }
 
 ul {
@@ -28,4 +28,19 @@ a {
 
 a:hover {
   color: #031649;
+}
+
+.intro {
+  background-color: #007bff;
+  text-align: center;
+  padding: 10px;
+  color: #fff;
+}
+
+.content {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 0 auto;
+  max-width: 800px;
 }
