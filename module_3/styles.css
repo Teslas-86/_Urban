@@ -13,3 +13,19 @@ h2 {
   font-size: 30px;
   color: #35555e;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #35555e;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #031649;
+}
