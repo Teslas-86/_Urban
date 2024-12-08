@@ -1,0 +1,15 @@
+html {
+  font: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-size: 50px;
+  background-image: linear-gradient(to left, #bed2e6, #063f4e);
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  color: #35555e;
+}
