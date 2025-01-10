@@ -1,0 +1,9 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#nameDisplay {
+  font-size: 1.2em;
+  margin-top: 10px;
+}

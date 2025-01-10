@@ -58,6 +58,6 @@ function showTasks() {
 }
 
 addTask("Сделать домашнее задание");
-addTask("Весело отметить новый год");
+addTask("Весело отметить Новый год");
 completeTask("сделать домашнее задание");
 showTasks();
